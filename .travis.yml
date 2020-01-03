@@ -13,10 +13,13 @@ language: python
 python:
   - 3.8
 
-before_script:
-  - git clone https://github.com/abhishek-mane/pull-through-registry-update-job.git
-
 install:
+  - git clone https://github.com/abhishek-mane/pull-through-registry-update-job.git
   - pip install -r pipenv-requirements.txt
   - pipenv install --deploy --dev
   # - pipenv run pip install -e .
+
+script:
+  - ls
+  # add tests coverage
+  # add pylint analysis
