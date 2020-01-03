@@ -23,3 +23,8 @@ script:
   - ls
   # add tests coverage
   # add pylint analysis
+
+after_success:
+  - docker login docker.pkg.github.com -u $GITHUB_USERNAME -p $GITHUB_TOKEN
+  - docker build -t docker.pkg.github.com/abhishek-mane/pull-through-registry-update-job/release:latest .
+  - docker push docker.pkg.github.com/abhishek-mane/pull-through-registry-update-job/release:latest
