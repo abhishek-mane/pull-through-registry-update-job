@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "828d5e037079895c60263eda15e48e03bfab53fca08aaa8786078383b1d52af8"
+            "sha256": "d40e5e87d78a46212e66e6071437aa59f9c69de2a71ea1048114a24ef9269658"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,6 +44,10 @@
                 "sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"
             ],
             "version": "==2.8"
+        },
+        "registry-update-job": {
+            "editable": true,
+            "path": "."
         },
         "requests": {
             "hashes": [
