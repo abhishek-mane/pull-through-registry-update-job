@@ -1,0 +1,15 @@
+# Author    : Abhishek Mane <abhishekmane@outlook.in>
+# Date      : 03/01/2020
+
+# ============= Ignore Everything =============
+*
+
+# ================== Except ===================
+# <-- code/conf -->
+!app.py
+!setup.py
+!registry_update_job
+# <-- deps -->
+!Pipfile
+!Pipfile.lock
+!pipenv-requirements.txt
